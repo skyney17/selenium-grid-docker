@@ -7,7 +7,7 @@ ${TIMEOUT}    2
 
 *** Keywords ***
 Open Browser To Home Page
-    Open Browser    ${APP_URL}    ${BROWSER}    remote_url=${SELENIUM_HUB}
+    Open Browser   http://localhost:8080    Chrome    remote_url=http://localhost:32768/
 
 
 A Home Page Is Open
